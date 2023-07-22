@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/nft-preview-card-component-using-position-and-flexbox-6ulDXxVU9A
+- Solution URL: https://www.frontendmentor.io/solutions/stats-preview-card-component-wblPCKADxe
 - Live Site URL: https://satryandi-miniproject7.netlify.app/
 
 ## My process
