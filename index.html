@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <title>Stats Preview Card Component</title>
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="stats_card">
+    <header class="stats_img">
+      <picture>
+        <source media="(max-width: 900px)" srcset="images/image-header-mobile.jpg">
+        <img src="images/image-header-desktop.jpg" alt="">
+      </picture>
+    </header>
+
+    <main class="stats_content">
+      <section class="stats_about">
+        <h1 class="title">Get <span>insights</span> that help your business grow.</h1>
+        <p class="subtitle">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+      </section>
+
+      <section class="stats_total">
+        <div>
+          <h1 class="num">10k+</h1>
+          <p>companies</p>
+        </div>
+        <div>
+          <h1 class="num">314</h1>
+          <p>templates</p>
+        </div>
+        <div>
+          <h1 class="num">12M+</h1>
+          <p>queries</p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
